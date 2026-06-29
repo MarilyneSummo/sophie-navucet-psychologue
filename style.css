@@ -306,11 +306,11 @@ li {
 /* Hero */
 .hero {
   position: relative;
-  min-height: 100svh;
+  min-height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: calc(var(--header-height) + 2rem) 0 4rem;
+  padding: 3rem 0 3rem;
   overflow: hidden;
 }
 
@@ -437,6 +437,7 @@ li {
 .info-banner {
   background: linear-gradient(135deg, #fdf2f2 0%, #f8e8e8 100%);
   padding: 2.5rem 0;
+  padding-top: calc(var(--header-height) + 1.5rem);
   border-top: 1px solid rgba(47, 82, 51, 0.08);
   border-bottom: 1px solid rgba(47, 82, 51, 0.08);
 }

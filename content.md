@@ -5,8 +5,6 @@ Psychologue spécialisée en Neuropsychologie, Psychothérapeute TCC(E)
 
 ## Accueil
 
-Bienvenue sur le site de Sophie NAVUCET.
-
 Je suis psychologue spécialisée en neuropsychologie et psychothérapeute TCC(E) (Thérapies Cognitivo-Comportementale Émotionnelle), certifiée par l’AFTCC (Association Française de Thérapies Comportementales et Cognitives).
 
 D’une part, je suis spécialisée dans l’évaluation et la prise en charge des difficultés cognitives, quelle que soit leur origine, avec pour objectif principal l’amélioration de votre autonomie et de votre qualité de vie.
