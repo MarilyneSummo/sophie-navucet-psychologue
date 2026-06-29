@@ -723,9 +723,11 @@ li {
 .contact__grid {
   position: relative;
   z-index: 2;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .contact__box {
@@ -733,20 +735,31 @@ li {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: var(--radius-md);
-  padding: 1.75rem;
+  padding: 2.25rem;
 }
 
 .contact__box h3 {
   color: var(--color-white);
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 1.25rem;
 }
 
 .contact__box p,
 .contact__box ul,
 .contact__box ol {
   color: rgba(255,255,255,0.9);
-  font-size: 0.95rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.contact__box ul,
+.contact__box ol {
+  padding-left: 1.25rem;
+}
+
+.contact__box li {
+  margin-bottom: 0.5rem;
 }
 
 .contact__box a {
