@@ -6,19 +6,19 @@
 (async function () {
   'use strict';
 
-  const response = await fetch('content.md?v=2');
+  const response = await fetch('content.md?v=3');
   const md = await response.text();
   const sections = parseMarkdown(md);
 
   populate('tagline', sections['tagline']);
   populate('accueil', sections['accueil']);
   populate('qui-suis-je', sections['qui-suis-je']);
-  populate('presentation', sections['presentation']);
-  renderCards('activites', sections['activites']);
+  populate('prsentation', sections['prsentation']);
+  renderCards('activits', sections['activits']);
   renderAccordion('outils', sections['outils']);
-  renderPricing('tarifs', sections['tarifs']);
+  renderPricing('tarifs-et-conditions', sections['tarifs-et-conditions']);
   renderContact('contact', sections['contact']);
-  renderResources('ressources', sections['ressources']);
+  renderResources('ressources-utiles', sections['ressources-utiles']);
 
   initNavigation();
   initScrollReveal();
