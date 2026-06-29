@@ -815,42 +815,11 @@ li {
 
 /* Resources */
 .resources {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
-}
-
-.resource-group {
-  background: var(--color-white);
-  border-radius: var(--radius-md);
-  padding: 1.75rem;
-  box-shadow: var(--shadow-sm);
-}
-
-.resource-group h3 {
-  color: var(--color-primary);
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-accent-soft);
-}
-
-.resource-group h4 {
-  font-size: 1rem;
-  color: var(--color-primary-light);
-  margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.resource-group ul,
-.resource-group ol {
-  padding-left: 1rem;
-  font-size: 0.95rem;
-  color: var(--color-text-light);
-}
-
-.resource-group a {
-  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Footer */
