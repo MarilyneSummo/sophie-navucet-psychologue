@@ -467,12 +467,48 @@ li {
 }
 
 .about__content h3 {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
   color: var(--color-primary);
+  font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.about__content h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3rem;
+  height: 3px;
+  background: var(--color-accent);
+  border-radius: 2px;
 }
 
 .about__content h3:first-child {
   margin-top: 0;
+}
+
+.about__content h4 {
+  color: var(--color-primary-light);
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about__content ul,
+.about__content ol {
+  color: var(--color-text-light);
+  padding-left: 1.25rem;
+}
+
+.about__content li {
+  margin-bottom: 0.6rem;
+}
+
+.about__content p {
+  color: var(--color-text);
 }
 
 /* Cards */
