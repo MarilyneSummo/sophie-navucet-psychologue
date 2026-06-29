@@ -181,12 +181,35 @@
     const container = document.querySelector(`[data-content-key="${key}"]`);
     if (!container) return;
     const children = extractSubsections(section.markdown);
-    container.innerHTML = children.map(child => `
-      <div class="resource-group reveal">
-        <h3>${escapeHtml(child.title)}</h3>
-        ${markdownToHtml(child.body, 3)}
+    container.innerHTML = children.map((child, i) => `
+      <div class="accordion__item reveal">
+        <button class="accordion__trigger" aria-expanded="false" aria-controls="res-panel-${i}"
+          id="res-trigger-${i}">
+          ${escapeHtml(child.title)}
+        </button>
+        <div class="accordion__panel" id="res-panel-${i}" role="region" aria-labelledby="res-trigger-${i}">
+          ${markdownToHtml(child.body, 3)}
+        </div>
       </div>
     `).join('');
+
+    container.querySelectorAll('.accordion__trigger').forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const item = trigger.closest('.accordion__item');
+        const isOpen = item.classList.contains('is-open');
+        const expanded = trigger.getAttribute('aria-expanded') === 'true';
+
+        container.querySelectorAll('.accordion__item.is-open').forEach(openItem => {
+          if (openItem !== item) {
+            openItem.classList.remove('is-open');
+            openItem.querySelector('.accordion__trigger').setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        item.classList.toggle('is-open', !isOpen);
+        trigger.setAttribute('aria-expanded', String(!expanded));
+      });
+    });
   }
 
   // ---------- Markdown conversion (lightweight) ----------
