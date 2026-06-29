@@ -6,7 +6,7 @@
 (async function () {
   'use strict';
 
-  const response = await fetch('content.md');
+  const response = await fetch('content.md?v=2');
   const md = await response.text();
   const sections = parseMarkdown(md);
 
