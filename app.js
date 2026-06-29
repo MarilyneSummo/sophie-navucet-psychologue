@@ -232,36 +232,55 @@
     // links
     html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
-    // line breaks (skip after headings so they stay clean)
+    // lists: handle line by line before converting newlines to <br>
+    html = processLists(html);
+
+    // line breaks (skip after headings and list wrappers)
     html = html.replace(/\n/g, '<br>');
     html = html.replace(/(<\/h[34]>)<br>/g, '$1');
-
-    // lists: convert leading "- " into <li>
-    html = html.replace(/(?:<br>|^)-\s+(.+?)(?=(?:<br>-\s+)|(?:<br><br>)|$)/g, (match, item, offset, string) => {
-      return `<li>${item}</li>`;
-    });
-
-    // wrap consecutive <li> in <ul>
-    html = html.replace(/(<li>.*?<\/li>)(?=(?:<br>)?<li>|$)/gs, (match) => {
-      return `<ul>${match}</ul>`;
-    });
-    html = html.replace(/<\/ul>(?:<br>)?<ul>/g, '');
-
-    // numbered lists: leading "1. " etc
-    html = html.replace(/(?:<br>|^)(\d+)\.\s+(.+?)(?=(?:<br>\d+\.\s+)|(?:<br><br>)|$)/g, (match, num, item) => {
-      return `<li>${item}</li>`;
-    });
-    html = html.replace(/(<li>.*?<\/li>)(?=(?:<br>)?<li>|$)/gs, (match, p1, offset, string) => {
-      // only wrap if not already in ul
-      if (string.slice(0, offset).endsWith('<ul>')) return match;
-      return `<ol>${match}</ol>`;
-    });
+    html = html.replace(/(<\/(?:ul|ol)>)<br>(?=<\/?(?:ul|ol)>)/g, '$1');
 
     // clean excessive br
     html = html.replace(/(<br>){3,}/g, '<br><br>');
     html = html.replace(/^(<br>)+|(<br>)+$/g, '');
 
     return html;
+  }
+
+  function processLists(text) {
+    const lines = text.split('\n');
+    const out = [];
+    let listType = null; // 'ul' or 'ol'
+    let listBuffer = [];
+
+    function flushList() {
+      if (!listType || !listBuffer.length) return;
+      const items = listBuffer.map(item => `<li>${item}</li>`).join('');
+      out.push(`<${listType}>${items}</${listType}>`);
+      listType = null;
+      listBuffer = [];
+    }
+
+    for (const raw of lines) {
+      const line = raw.trimEnd();
+      const ulMatch = line.match(/^-\s+(.+)$/);
+      const olMatch = line.match(/^\d+\.\s+(.+)$/);
+
+      if (ulMatch) {
+        if (listType && listType !== 'ul') flushList();
+        listType = 'ul';
+        listBuffer.push(ulMatch[1]);
+      } else if (olMatch) {
+        if (listType && listType !== 'ol') flushList();
+        listType = 'ol';
+        listBuffer.push(olMatch[1]);
+      } else {
+        flushList();
+        out.push(line);
+      }
+    }
+    flushList();
+    return out.join('\n');
   }
 
   function extractSubsections(md) {
