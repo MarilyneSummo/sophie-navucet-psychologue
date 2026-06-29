@@ -83,8 +83,8 @@
     const container = document.querySelector(`[data-content-key="${key}"]`);
     if (!container) return;
     const children = extractSubsections(section.markdown);
-    container.innerHTML = children.map(child => `
-      <article class="card reveal">
+    container.innerHTML = children.map((child, i) => `
+      <article class="card reveal" id="activite-${i}">
         <h3>${escapeHtml(child.title)}</h3>
         <div class="card__body">${markdownToHtml(child.body, 3)}</div>
       </article>
