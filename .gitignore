@@ -1,0 +1,16 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers temporaires du document Word source
+~$*.docx
+*.tmp
+
+# Logs
+*.log
