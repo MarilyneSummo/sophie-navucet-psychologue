@@ -44,7 +44,9 @@
 
     for (const raw of lines) {
       const line = raw.trimEnd();
-      const match = line.match(/^(#{1,3})\s+(.+)$/);
+      // Only # and ## are treated as section boundaries.
+      // ### headings stay inside their parent section for cards/accordion rendering.
+      const match = line.match(/^(#{1,2})\s+(.+)$/);
       if (match) {
         flush();
         currentLevel = match[1].length;
@@ -195,6 +197,10 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;');
 
+    // headings (only ### inside section bodies)
+    html = html.replace(/^###\s+(.+)$/gm, '<h3>$1</h3>');
+    html = html.replace(/^####\s+(.+)$/gm, '<h4>$1</h4>');
+
     // bold / italic
     html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
     html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
@@ -203,8 +209,9 @@
     // links
     html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
-    // line breaks
+    // line breaks (skip after headings so they stay clean)
     html = html.replace(/\n/g, '<br>');
+    html = html.replace(/(<\/h[34]>)<br>/g, '$1');
 
     // lists: convert leading "- " into <li>
     html = html.replace(/(?:<br>|^)-\s+(.+?)(?=(?:<br>-\s+)|(?:<br><br>)|$)/g, (match, item, offset, string) => {
