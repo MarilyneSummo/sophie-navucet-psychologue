@@ -11,7 +11,7 @@ D’une part, je suis spécialisée dans l’évaluation et la prise en charge d
 
 D’autre part, je suis spécialisée dans l’accompagnement psychologique des difficultés émotionnelles et relationnelles afin d’améliorer votre santé mentale et votre bien-être.
 
-Il est important pour moi de travailler dans une approche collaborative et bienveillante. Comme je le dis, je suis experte dans les outils à utiliser et vous êtes expert.e dans vos comportements, votre fonctionnement. C’est ensemble que nous trouvons des stratégies pour mieux faire face aux difficultés dans une atmosphère bienveillante.
+Il est important pour moi de travailler dans une approche collaborative et bienveillante. Je suis experte dans les outils à utiliser et vous êtes expert.e dans vos comportements, votre fonctionnement. C’est ensemble que nous trouvons des stratégies pour mieux faire face aux difficultés dans une atmosphère bienveillante.
 
 Vous trouverez sur ce site le détail des activités proposées, ma présentation, le descriptif des honoraires et mes coordonnées.
 
@@ -35,7 +35,7 @@ En 2017, nous avons développé l’Éducation Thérapeutique, à l’attention 
 
 Je découvre la psychologie et plus particulièrement la neuropsychologie lors de mon stage en tant qu’attachée de recherche clinique au CHU de Montpellier, en Neurologie. Je décide de poursuivre dans cette voie après l’obtention de mon diplôme.
 
-C’est après mon master en psychologie que je rencontre les Thérapies Cognitives et Comportementales. Centrées sur le problème, recherchant des solutions concrètes, autonomisant les patients, avec une collaboration active patient-thérapeute, elles m’ont immédiatement convaincu. Ces thérapies sont les outils psychothérapeutiques validés scientifiquement. Elles deviendront mon fil rouge dans ma pratique jusqu’à ce jour.
+C’est après mon master en psychologie que je rencontre les Thérapies Cognitives et Comportementales. Centrées sur le problème, recherchant des solutions concrètes, autonomisant les patients, avec une collaboration active patient-thérapeute, elles m’ont immédiatement convaincue. Ces thérapies sont les outils psychothérapeutiques validés scientifiquement. Elles deviendront mon fil rouge dans ma pratique jusqu’à ce jour.
 
 J’apprécie particulièrement utiliser des approches de la troisième vague des TCC, la vague émotionnelle, comme la thérapie ACT (Acceptation et Engagement), la thérapie des schémas, le protocole unifié de Barlow, la thérapie de la cohérence et de la reconsolidation, ou encore la pleine conscience.
 
@@ -95,7 +95,7 @@ L’objectif est de vous aider à vous sentir plus compétent et confiant dans v
 
 ### La thérapie de groupe
 
-La thérapie de groupe consiste à réunir plusieurs personnes qui vivent des difficultés ou des problématiques similaires, afin qu’elles puissent partager leurs expériences, leurs pensées et leurs émotions dans un cadre encadré par un thérapeute.
+La thérapie de groupe consiste à réunir plusieurs personnes qui vivent des difficultés ou des problématiques similaires, afin qu’elles puissent partager leurs expériences, leurs pensées et leurs émotions dans un environnement encadré par le thérapeute.
 
 En TCC, la thérapie de groupe offre plusieurs avantages :
 
@@ -134,9 +134,9 @@ Les sessions seront proposées en fonction de la demande et du nombre d’inscri
 
 ### Formation professionnelle
 
-La formation des professionnels de la santé et du social représente un enjeu majeur dans l’accompagnement des personnes en situation de handicap, cognitif et/ou moteur. La formation professionnelle, qu’elle concerne la prévention des risques (suicidaires, de déclin cognitif, etc.), l’adaptation à la situation de handicap (adaptation de la communication, de l’environnement, etc.) ou l’acquisition de connaissances théoriques approfondies, s’inscrit dans une dynamique d’amélioration constante des pratiques professionnelles.
+La formation des professionnels de la santé et du social représente un enjeu majeur dans l’accompagnement des personnes en situation de handicap, cognitif et/ou moteur. La formation professionnelle, qu’elle concerne la prévention des risques (suicidaires, d'addiction, de burn-out, de déclin cognitif, etc.), l’adaptation à la situation de handicap (adaptation de la communication, de l’environnement, etc.) ou l’acquisition de connaissances théoriques approfondies, s’inscrit dans une dynamique d’amélioration constante des pratiques professionnelles.
 
-En cohérence avec mon domaine d’expertise, la formation s’applique au thème général du handicap cognitif. Elle peut répondre à un besoin :
+En cohérence avec mon domaine d’expertise, la formation s’applique aux thèmes généraux du handicap cognitif et de la prévention. Elle peut répondre à un besoin :
 
 - de prévention des risques suicidaires par la sensibilisation des équipes aux manifestations dépressives, aux questions à poser, à l’attitude à privilégier ;
 - de prévention de déclin cognitif par la sensibilisation des professionnels aux facteurs précipitants, aggravants et de maintien des difficultés cognitives ;
@@ -146,9 +146,11 @@ En cohérence avec mon domaine d’expertise, la formation s’applique au thèm
 - d’adaptation de la prise en charge cognitive par la transmission aux professionnels d’outils adaptés à leur pratique ;
 - d’acquisition de connaissances théoriques approfondies par l’enseignement des origines potentielles d’un trouble cognitif, l’explication des différentes expressions symptomatiques, et la sensibilisation à leur repérage ainsi qu’à leur suivi dans le temps.
 
-La formation professionnelle peut également répondre à une problématique cognitive spécifique telle que la gestion des troubles du comportement, le syndrome dépressif majeur chez une personne adulte et/ou âgée, la gestion des difficultés émotionnelles, les spécificités des profils cognitifs des personnes ayant eu un traumatisme crânien, les spécificités cognitives liées au vieillissement, etc.
+La formation professionnelle peut également répondre à une problématique cognitive spécifique telle que la gestion des troubles du comportement, le syndrome dépressif majeur chez une personne adulte et/ou âgée, la gestion des difficultés émotionnelles, les spécificités des profils cognitifs des personnes ayant eu un traumatisme crânien, les spécificités cognitives liées au vieillissement, etc. 
 
-La formation s’adresse à de multiples institutions : EHPAD, SAMSAH, FAM, SAVS, associations, SSIAD, ESA, etc.
+La formation s’adresse à de multiples institutions (EHPAD, SAMSAH, FAM, SAVS, associations, SSIAD, ESA, etc.), à des entreprises ou organismes publics et/ou privés.
+
+J'interviens également au sein de FormaPsy LSM, un organisme de formation à destination de public varié porté par des psychologues.
 
 ## Outils
 
@@ -307,7 +309,7 @@ Concernée : thérapie individuelle, thérapie de soutien, séance de psychoédu
 Le forfait comprend :
 
 - 45 minutes à 1 heure de consultation (avec la personne) pour faire connaissance, établir les problématiques et les attentes ;
-- 2 heures de passation (avec la personne) ;
+- 2 à 3 heures de passation (avec la personne) ;
 - l’interprétation des résultats et la rédaction des comptes-rendus (sans la personne) ;
 - 45 minutes à 1 heure de restitution des résultats (avec la personne), comportant des explications claires et des orientations thérapeutiques possibles.
 
@@ -328,7 +330,7 @@ Tout rendez-vous confirmé et non annulé 48 heures ouvrées à l’avance est s
 
 ### Remboursement
 
-Je ne fais pas partie du dispositif Mon Soutien Psy, les consultations ne sont pas remboursées par la Sécurité sociale. Les consultations chez un psychologue sont remboursées seulement au sein des CHU, des CMP ou si le psychologue a adhéré au dispositif MonPsy. Le dispositif MonPsy permet d’avoir 12 séances remboursées avec des psychologues, selon certains critères et avec une ordonnance de votre médecin traitant. [Plus d’informations ici](https://monsoutienpsy.ameli.fr/recherche-psychologue).
+Je ne fais pas partie du dispositif Mon Soutien Psy, les consultations ne sont pas remboursées par la Sécurité sociale. Les consultations chez un psychologue sont remboursées seulement au sein des CHU, des CMP ou si le psychologue a adhéré au dispositif MonPsy. Le dispositif MonPsy permet d’avoir 12 séances remboursées avec des psychologues, selon certains critères. [Plus d’informations ici](https://monsoutienpsy.ameli.fr/recherche-psychologue).
 
 Certaines mutuelles prennent en charge (partiellement ou totalement, selon les modalités de votre contrat) les séances chez un psychologue. Je vous invite à vous renseigner auprès de votre mutuelle.
 
@@ -338,7 +340,7 @@ L’AEEH (Allocation d’Éducation de l’Enfant Handicapé) peut contribuer au
 
 ### Jours et horaires d’ouverture
 
-Consultations les **jeudis et vendredis de 9h00 à 16h30**.
+Consultations les **jeudis et vendredis de 9h00 à 16h**.
 
 Je reçois uniquement sur rendez-vous.
 
@@ -359,12 +361,13 @@ Par mail ou par téléphone.
 
 ### Adresse
 
-En tramway : Ligne 1, arrêt Euromédecine, puis bus n°24, arrêt Route de Montpellier, **GRABELS**.
+En tramway : Ligne 1, arrêt Euromédecine, puis bus n°24, arrêt Guarriguettes, Route de Montpellier, **GRABELS**.
 
 Facilités de stationnement. Accessible aux personnes à mobilité réduite (norme PMR).
 
 **ADELI :** 349320143  
 **RPPS :** 10009718296
+**SIREN :** 979.312.782
 
 ## Ressources utiles
 
